@@ -1,0 +1,71 @@
+.Input_Generic
+{
+	width: 432px;
+	border-width: 1px;
+	border-style: dotted;
+	border-color: gray;
+	border-radius: 2px;
+	padding: 5px 5px;
+}
+
+.Input_VerticalPadding
+{
+	height: 3px;
+}
+
+.Button_Generic
+{
+	text-align: center;
+	color: white;
+	font-size: 16px;
+	width: 220px;
+	height: 40px;
+	border-style: none;
+}
+
+.Button_PhotoLibrary
+{
+	background-color: #007AFF;
+}
+
+.Button_FacebookLogin
+{
+	background-color: #4267B2;
+}
+
+.Button_TwitterLogin
+{
+	background-color: #33CCFF;
+}
+
+.Button_TumblrLogin
+{
+	background-color: #00448E;
+}
+
+.Button_Preview
+{
+	background-color: #007AFF;
+}
+
+.Image_Generic
+{
+    width: 445px;
+	border-style: none;
+}
+
+.Image_Blank
+{
+	background-color: #EFEFF4;
+	height: 445px;
+}
+
+.Image
+{
+    height: auto;
+}
+
+.Button_VerticalPadding
+{
+	height: 5px;
+}

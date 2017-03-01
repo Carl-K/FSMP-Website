@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>Fast Social Media Poster</title>
+	<meta name="description" content="Quickly post to your social media accounts"></meta>
+	
+	<link rel="stylesheet" href="FSMP.css"></link>
+	<script src="FSMP.js"></script>
+
+</head>
+
+<body>
+
+    <script> console.log(window.location.hostname); </script>
+    
+    <script> setupFacebook(); </script>
+
+	<textarea id="textBox" name="message" form ="MessageForm" class="Input_Generic" rows="5" placeholder="Enter message here"></textarea>
+
+    <form id="MessageForm">
+    </form>
+    
+	<div class="Input_VerticalPadding"></div>
+
+	<form id="URLForm">
+		<input id="urlBox" class="Input_Generic" type="text" placeholder="Enter full URL pathname here">    
+	</form>
+
+	<div class="Button_VerticalPadding"></div>
+
+	<button type="button" class="Button_Generic Button_PhotoLibrary" onclick="accessPhotoLibraryButtonPressed()"><b>Access Photo Library</b></button>
+	<button type="button" class="Button_Generic Button_PhotoLibrary" onclick="unselectPhotoButtonPressed()"><b>Unselect Photo</b></button>
+
+	<div class="Button_VerticalPadding"></div>
+
+	<img id="imageBlank" class="Image_Generic  Image_Blank"></img>
+    <img id="imagePreview" class="Image_Generic  Image"></img>
+
+	<div class="Button_VerticalPadding"></div>
+
+	<button type="button" id="fb" class="Button_Generic Button_FacebookLogin" onclick="facebookLogButtonPressed()"></button>
+	<button type="button" class="Button_Generic Button_Preview" onclick="facebookPreviewButtonPressed()"><b>Preview</b></button>
+
+	<div class="Button_VerticalPadding"></div>
+
+	<button type="button" class="Button_Generic Button_TwitterLogin" onclick="twitterLogButtonPressed()"><b>Twitter Log</b></button>
+	<button type="button" class="Button_Generic Button_Preview" onclick="twitterPreviewButtonPressed()"><b>Preview</b></button>
+
+	<div class="Button_VerticalPadding"></div>
+
+	<button type="button" class="Button_Generic Button_TumblrLogin" onclick="tumblrLogButtonPressed()"><b>Tumblr Log</b></button>
+	<button type="button" class="Button_Generic Button_Preview" onclick="tumblrPreviewButtonPressed()"><b>Preview</b></button>
+
+</body>
+
+</html>
